@@ -33,6 +33,6 @@ jobs:
               --app="$CIRCLE_PROJECT_REPONAME" \
               --cx-flow.bugTracker="Json" \
               --checkmarx.version="9.4" \ 
-              --checkmarx.base-url="https://mglsast.dev.checkmarx-ts.com" \
+              --base-url="https://mglsast.dev.checkmarx-ts.com" \
               --checkmarx.username=cxflow \
               --checkmarx.password=P@ssw0rd01! \

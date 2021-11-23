@@ -1,10 +1,9 @@
 version: 2.1
 
 workflows:
-  test-env-vars:
+  cxflow-test:
     jobs:
-      - cx-scan:
-          context: Cx
+      - cx-scan
           
 
 jobs:

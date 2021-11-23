@@ -22,7 +22,6 @@ jobs:
       - run:
           name: Execute CxSAST Scan
           command: |
-            mv ~/project/.checkmarx/application.yml ~/project
             cd ~/project
             java -jar ~/cxflow.jar \
               --verbose \

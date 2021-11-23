@@ -34,6 +34,6 @@ jobs:
               --cx-project="$CIRCLE_PROJECT_REPONAME" \
               --app="$CIRCLE_PROJECT_REPONAME" \
               --cx-flow.bugTracker="Json" \
-              --checkmarx.base-url=http://18.208.171.193 \
-              --checkmarx.username=jenkins@cx \
-              --checkmarx.password=Checkmarx!23 \
+              --checkmarx.base-url=https://mglsast.dev.checkmarx-ts.com \
+              --checkmarx.username=cxflow \
+              --checkmarx.password=P@ssw0rd01! \

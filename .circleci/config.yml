@@ -3,7 +3,9 @@ version: 2.1
 workflows:
   cxflow-test:
     jobs:
-      - cx-scan
+      - cx-scan:
+          context:
+            -CxFlow
           
 
 jobs:

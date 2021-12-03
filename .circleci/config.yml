@@ -5,7 +5,7 @@ workflows:
     jobs:
       - cx-scan:
           context:
-            -CxFlow
+            - CxFlow
           
 
 jobs:
